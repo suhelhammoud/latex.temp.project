@@ -154,15 +154,16 @@ Similar to $ IG $, we can see from Equation \ref{eq:3} that as the observed prob
 Then we define the generalized relation divergences between variables $ Y $ and $ X $ by 
 
 \begin{equation}\label{eq:4}
-F(Y,X)=\sum_{i,j} f(\hat{p}(x,y) , \hat{p}(y)\hat{p}(x)) 
+F(Y,X)=\sum_{i,j} f(\hat{p}(y_i, x_j) , \hat{p}(y_i)\hat{p}(x_j)) 
 \end{equation}
 
 
 It is not hard to see that $ IG $ and $ CHI $ are special cases of the generalized divergence  $ F $. In particular, the $ IG $ can be obtained by taking $ (p,q)= p \log \frac{p}{q} $ . Then, $ f(p,q) $ is continuous, convex, and $ f(p,p)=0 $. Similarly, the $ CHI $ can be obtained by taking$  f(p,q)= \frac{(p-q)^2}{p}$.  Recall that the family $ \{ I ^ \lambda: \lambda  \in R \} $ of power divergence statistics is defined by 34
 
-\begin{equation}
+\[ 
 2nI^\lambda = \frac{2}{\lambda ( \lambda + 1)} \sum_{i=1}^{k} X_{i}(\frac{X_i^\lambda}{E_i^\lambda} - 1)
-\end{equation}
+\]
+
 
 where $ X_{i}  $ is the observed frequency and $ E_{i} $ is the expected frequency. It is easy to see, by taking $ f_{\lambdaλ}(p,q)=p[(\frac{p}{q})^\lambda-1] $, that any member of the power divergence statistics is also a special case of divergences defined in Equation \ref{eq:4}. Indeed, $ f_{\lambda} $ is a continuous, convex and $ f_\lambda (p,q)=0  $ whenever $ p=q $. Note that the set of functions defined by Equation \ref{eq:4} is larger than $ \{I^\lambda: \lambda \in R \}〖$. For instance, the L2 based divergence that we will describe below (see Eq. 5) does not belong to the family of power divergence statistics.
 
@@ -175,17 +176,17 @@ f(p,q)=(p-q)^2
 It is not hard to check that the function defined in Equation \ref{eq:5} satisfies all the necessary requirements. In particular, it is easy to see that the function is continuous and zero when $ p=q $. To check that the function $ f(p,q)=(p-q)^2 $ is convex we can show that its Hessian matrix is positively definite.  In particular, the Hessian matrix is given by $  H = [ \begin{array}{cc}
 2 & -2  \\ 
 -2 & 2 
-\end{array} ]  $. So given a vector $  v=[a,b] $, the product $ v^T Hv=2〖(a-b)〗^2 $ is nonnegative. It follows that$  f(x,y) $ is a convex function. Therefore, a relation method can be created based on the function. This resulting method will be called the L2 divergence, which is given by
+\end{array} ]  $. So given a vector $  v=[a,b] $, the product $ v^T Hv=2〖(a-b)〗^2 $ is nonnegative. It follows that$  f(x,y) $ is a convex function. Therefore, a relation method can be created based on the function. This resulting method will be called the $ L^2 $ divergence, which is given by
 
 \begin{equation}\label{eq:6}
 L^2 (Y,X)=\sum_{i,j} [ \hat{p}(y_i,x_j )-p ̂(y_i ) p ̂(x_j )]^2 
 \end{equation}
 
-Note that despite the resemblance between the equation of the $ L^2 $ and $ CHI $, in theory, they are different functions. Nevertheless, in practice, the two often move in the same direction i.e. if $ CHI(Y,X_1 ) < CHI(Y,X_2 ) $, then often times$  L^2 (Y,X_1 ) < L^2 (Y,X_2 ) $. The relationship between $ CHI $ and $ L2 $ arises from the fact that they both measure the similarity between the observed and expected probabilities. This behaviour will be evident when the experimental results are examined in the next section. That feature rankings based on CHI and L2 are often very similar will be clearly seen. However, it is important to note that there are also cases, such as the ‘lymph’ dataset, where feature rankings differ substantially. This subject will be addressed in more detail in the next section. 
+Note that despite the resemblance between the equation of the $ L^2 $ and $ CHI $, in theory, they are different functions. Nevertheless, in practice, the two often move in the same direction i.e. if $ CHI(Y,X_1 ) < CHI(Y,X_2 ) $, then often times $  L^2 (Y,X_1 ) < L^2 (Y,X_2 ) $. The relationship between $ CHI $ and $ L2 $ arises from the fact that they both measure the similarity between the observed and expected probabilities. This behaviour will be evident when the experimental results are examined in the next section. That feature rankings based on $ CHI $ and $ L^2 $ are often very similar will be clearly seen. However, it is important to note that there are also cases, such as the ‘lymph’ dataset, where feature rankings differ substantially. This subject will be addressed in more detail in the next section. 
 
-The most distinguishing characteristic that makes the L2 method an attractive alternative is its simplicity and ease of understanding and interpretation. As can be seen in Eq. 6, the L2 metric simply measures the squared distance between the joint and expected distributions of the variables. Recall that a pair of random variables,  Y and X, are independent if and only if the observed (joint) probability is equal to the expected probability. It follows that the larger the difference between the observed and expected probabilities the more ‘dependent’ are the variables. The new method is the most direct way of calculating the difference between the probabilities. Therefore, L2 allows one to delve straight into the heart of the relationship between random variables.  On the other hand, the more established measures of the dependence between a pair of variables, such as IG and CHI, try to calculate the strength of the relationship via an elaborate formula that is not very intuitive. Indeed, the formula for calculating IG (Eq. 1a) is a complex probability weighted log difference between the observed and expected probabilities. The formula for CHI (Eq. 3) is similar to L2, but inversely weighted by the expected probability. Since all three metrics – IG, CHI, and L2 – measure the similarity between the observed and expected probabilities it is logical to prefer the simplest metric. Given that in mathematics the simplest and the most popular distance measure is the $ l^2 $ metric we establish the theoretical preference of the proposed L2 measure.
+The most distinguishing characteristic that makes the $ L^2 $ method an attractive alternative is its simplicity and ease of understanding and interpretation. As can be seen in Eq. \ref{eq:6}, the $ L^2 $ metric simply measures the squared distance between the joint and expected distributions of the variables. Recall that a pair of random variables,  Y and X, are independent if and only if the observed (joint) probability is equal to the expected probability. It follows that the larger the difference between the observed and expected probabilities the more ‘dependent’ are the variables. The new method is the most direct way of calculating the difference between the probabilities. Therefore, $ L^2 $ allows one to delve straight into the heart of the relationship between random variables.  On the other hand, the more established measures of the dependence between a pair of variables, such as IG and CHI, try to calculate the strength of the relationship via an elaborate formula that is not very intuitive. Indeed, the formula for calculating IG (Eq. \ref{eq:1a}) is a complex probability weighted log difference between the observed and expected probabilities. The formula for CHI (Eq. \ref{eq:3}) is similar to $ L^2 $, but inversely weighted by the expected probability. Since all three metrics – IG, CHI, and $ L^2 $ – measure the similarity between the observed and expected probabilities it is logical to prefer the simplest metric. Given that in mathematics the simplest and the most popular distance measure is the $ l^2 $ metric we establish the theoretical preference of the proposed $ L^2 $ measure.
 
-Figure 1 below illustrates the complete cycle of feature selection based on the L2 criterion.\newline
+Figure 1 below illustrates the complete cycle of feature selection based on the $ L^2 $ criterion.\newline
 
 add figure graphic here \newline
  Fig. 1: the steps of performing the L2 based feature selection 
