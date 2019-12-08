@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -19,5 +19,287 @@ G.~Chandrashekar, F.~Sahin, {A survey on feature selection methods}, Computers
   and Electrical Engineering 40~(1) (2014) 16--28.
 \newblock \href {http://dx.doi.org/10.1016/j.compeleceng.2013.11.024}
   {\path{doi:10.1016/j.compeleceng.2013.11.024}}.
+
+\bibitem{Bunker2019}
+R.~P. Bunker, F.~Thabtah,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S2210832717301485}{{A
+  machine learning framework for sport result prediction}}, Applied Computing
+  and Informatics 15~(1) (2019) 27--33.
+\newblock \href {http://dx.doi.org/10.1016/j.aci.2017.09.005}
+  {\path{doi:10.1016/j.aci.2017.09.005}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S2210832717301485}
+
+\bibitem{McCluskey2014}
+L.~McCluskey, F.~Thabtah, R.~M. Mohammad,
+  \href{https://digital-library.theiet.org/content/journals/10.1049/iet-ifs.2013.0202}{{Intelligent
+  rule-based phishing websites classification}}, IET Information Security 8~(3)
+  (2014) 153--160.
+\newblock \href {http://dx.doi.org/10.1049/iet-ifs.2013.0202}
+  {\path{doi:10.1049/iet-ifs.2013.0202}}.
+\newline\urlprefix\url{https://digital-library.theiet.org/content/journals/10.1049/iet-ifs.2013.0202}
+
+\bibitem{Kamalov2017}
+F.~Kamalov, F.~Thabtah, {A Feature Selection Method Based on Ranked Vector
+  Scores of Features for Classification}, Annals of Data Science 4~(4) (2017)
+  483--502.
+\newblock \href {http://dx.doi.org/10.1007/s40745-017-0116-1}
+  {\path{doi:10.1007/s40745-017-0116-1}}.
+
+\bibitem{Hall1999}
+M.~A. Hall,
+  \href{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.4643}{{Correlation-based
+  Feature Selection for Machine Learning}}~(April).
+\newline\urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.4643}
+
+\bibitem{HanchuanPeng2005}
+{Hanchuan Peng}, {Fuhui Long}, C.~Ding,
+  \href{http://ieeexplore.ieee.org/document/1453511/}{{Feature selection based
+  on mutual information criteria of max-dependency, max-relevance, and
+  min-redundancy}}, IEEE Transactions on Pattern Analysis and Machine
+  Intelligence 27~(8) (2005) 1226--1238.
+\newblock \href {http://dx.doi.org/10.1109/TPAMI.2005.159}
+  {\path{doi:10.1109/TPAMI.2005.159}}.
+\newline\urlprefix\url{http://ieeexplore.ieee.org/document/1453511/}
+
+\bibitem{Li2017}
+J.~Li, K.~Cheng, S.~Wang, F.~Morstatter, R.~P. Trevino, J.~Tang, H.~Liu,
+  \href{http://dl.acm.org/citation.cfm?doid=3161158.3136625}{{Feature
+  Selection}}, ACM Computing Surveys 50~(6) (2017) 1--45.
+\newblock \href {http://dx.doi.org/10.1145/3136625}
+  {\path{doi:10.1145/3136625}}.
+\newline\urlprefix\url{http://dl.acm.org/citation.cfm?doid=3161158.3136625}
+
+\bibitem{Hoque2014}
+N.~Hoque, D.~Bhattacharyya, J.~Kalita,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0957417414002164}{{MIFS-ND:
+  A mutual information-based feature selection method}}, Expert Systems with
+  Applications 41~(14) (2014) 6371--6385.
+\newblock \href {http://dx.doi.org/10.1016/j.eswa.2014.04.019}
+  {\path{doi:10.1016/j.eswa.2014.04.019}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0957417414002164}
+
+\bibitem{Zhou2016}
+H.~Zhou, J.~Guo, Y.~Wang, M.~Zhao,
+  \href{http://www.hindawi.com/journals/cin/2016/1715780/}{{A Feature Selection
+  Approach Based on Interclass and Intraclass Relative Contributions of
+  Terms}}, Computational Intelligence and Neuroscience 2016 (2016) 1--8.
+\newblock \href {http://dx.doi.org/10.1155/2016/1715780}
+  {\path{doi:10.1155/2016/1715780}}.
+\newline\urlprefix\url{http://www.hindawi.com/journals/cin/2016/1715780/}
+
+\bibitem{Thabtah2016}
+F.~Thabtah, N.~Abdelhamid,
+  \href{https://www.worldscientific.com/doi/abs/10.1142/S0219649216500428}{{Deriving
+  Correlated Sets of Website Features for Phishing Detection: A Computational
+  Intelligence Approach}}, Journal of Information {\&} Knowledge Management
+  15~(04) (2016) 1650042.
+\newblock \href {http://dx.doi.org/10.1142/S0219649216500428}
+  {\path{doi:10.1142/S0219649216500428}}.
+\newline\urlprefix\url{https://www.worldscientific.com/doi/abs/10.1142/S0219649216500428}
+
+\bibitem{Al-Thubaity2013}
+A.~Al-Thubaity, N.~Abanumay, S.~Al-Jerayyed, A.~Alrukban, Z.~Mannaa, {The
+  effect of combining different feature selection methods on arabic text
+  classification}, in: SNPD 2013 - 14th ACIS International Conference on
+  Software Engineering, Artificial Intelligence, Networking and
+  Parallel/Distributed Computing, 2013, pp. 211--216.
+\newblock \href {http://dx.doi.org/10.1109/SNPD.2013.89}
+  {\path{doi:10.1109/SNPD.2013.89}}.
+
+\bibitem{Azhagusundari2013}
+B.~Azhagusundari, A.~S. Thanamani,
+  \href{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.674.9620}{{Feature
+  Selection based on Information Gain}}, International Journal of Innovative
+  Technology and Exploring Engineering (IJITEE) 2~(2) (2013) 18--21.
+\newblock \href {http://dx.doi.org/2278-3075} {\path{doi:2278-3075}}.
+\newline\urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.674.9620}
+
+\bibitem{Witten2011}
+I.~H. Witten, E.~Frank, M.~A. Hall,
+  \href{http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569{\%}3FSubscriptionId{\%}3D1V7VTJ4HA4MFT9XBJ1R2{\%}26tag{\%}3Dmekentosjcom-20{\%}26linkCode{\%}3Dxm2{\%}26camp{\%}3D2025{\%}26creative{\%}3D165953{\%}26creativeASIN{\%}3D0123748569}{{Data
+  Mining: Practical Machine Learning Tools and Techniques, Third Edition (The
+  Morgan Kaufmann Series in Data Management Systems)}}, 2011.
+\newline\urlprefix\url{http://www.amazon.com/Data-Mining-Practical-Techniques-Management/dp/0123748569{\%}3FSubscriptionId{\%}3D1V7VTJ4HA4MFT9XBJ1R2{\%}26tag{\%}3Dmekentosjcom-20{\%}26linkCode{\%}3Dxm2{\%}26camp{\%}3D2025{\%}26creative{\%}3D165953{\%}26creativeASIN{\%}3D0123748569}
+
+\bibitem{Shahamiri2014a}
+S.~R. Shahamiri, S.~S.~B. Salim,
+  \href{http://ieeexplore.ieee.org/document/6762967/}{{A Multi-Views
+  Multi-Learners Approach Towards Dysarthric Speech Recognition Using
+  Multi-Nets Artificial Neural Networks}}, IEEE Transactions on Neural Systems
+  and Rehabilitation Engineering 22~(5) (2014) 1053--1063.
+\newblock \href {http://dx.doi.org/10.1109/TNSRE.2014.2309336}
+  {\path{doi:10.1109/TNSRE.2014.2309336}}.
+\newline\urlprefix\url{http://ieeexplore.ieee.org/document/6762967/}
+
+\bibitem{Kamalov2019}
+F.~Kamalov, {Sensitivity Analysis for Feature Selection}, in: Proceedings -
+  17th IEEE International Conference on Machine Learning and Applications,
+  ICMLA 2018, Institute of Electrical and Electronics Engineers Inc., 2019, pp.
+  1466--1470.
+\newblock \href {http://dx.doi.org/10.1109/ICMLA.2018.00238}
+  {\path{doi:10.1109/ICMLA.2018.00238}}.
+
+\bibitem{Uguz2011}
+H.~Uğuz,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0950705111000803}{{A
+  two-stage feature selection method for text categorization by using
+  information gain, principal component analysis and genetic algorithm}},
+  Knowledge-Based Systems 24~(7) (2011) 1024--1032.
+\newblock \href {http://dx.doi.org/10.1016/j.knosys.2011.04.014}
+  {\path{doi:10.1016/j.knosys.2011.04.014}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0950705111000803}
+
+\bibitem{Salzberg1994}
+S.~L. Salzberg, {C4.5: Programs for Machine Learning by J. Ross Quinlan. Morgan
+  Kaufmann Publishers, Inc., 1993}, Machine Learning 16~(3) (1994) 235--240.
+\newblock \href {http://dx.doi.org/10.1007/bf00993309}
+  {\path{doi:10.1007/bf00993309}}.
+
+\bibitem{Abedinia2017}
+O.~Abedinia, N.~Amjady, H.~Zareipour,
+  \href{http://ieeexplore.ieee.org/document/7458187/}{{A New Feature Selection
+  Technique for Load and Price Forecast of Electrical Power Systems}}, IEEE
+  Transactions on Power Systems 32~(1) (2017) 62--74.
+\newblock \href {http://dx.doi.org/10.1109/TPWRS.2016.2556620}
+  {\path{doi:10.1109/TPWRS.2016.2556620}}.
+\newline\urlprefix\url{http://ieeexplore.ieee.org/document/7458187/}
+
+\bibitem{Shahamiri2012}
+S.~R. Shahamiri, W.~M. Wan-Kadir, S.~Ibrahim, S.~Z.~M. Hashim, {Artificial
+  Neural Networks as multi-networks automated test oracle}, Automated Software
+  Engineering 19~(3) (2012) 303--334.
+\newblock \href {http://dx.doi.org/10.1007/s10515-011-0094-z}
+  {\path{doi:10.1007/s10515-011-0094-z}}.
+
+\bibitem{Rajab2017}
+K.~D. Rajab, \href{https://www.hindawi.com/journals/scn/2017/9838169/}{{New
+  Hybrid Features Selection Method: A Case Study on Websites Phishing}},
+  Security and Communication Networks 2017 (2017) 1--10.
+\newblock \href {http://dx.doi.org/10.1155/2017/9838169}
+  {\path{doi:10.1155/2017/9838169}}.
+\newline\urlprefix\url{https://www.hindawi.com/journals/scn/2017/9838169/}
+
+\bibitem{Yousef2016}
+M.~Yousef, M.~D. {Sa{\c{c}}ar Demirci}, W.~Khalifa, J.~Allmer,
+  \href{http://www.hindawi.com/journals/abi/2016/5670851/}{{Feature Selection
+  Has a Large Impact on One-Class Classification Accuracy for MicroRNAs in
+  Plants}}, Advances in Bioinformatics 2016 (2016) 1--6.
+\newblock \href {http://dx.doi.org/10.1155/2016/5670851}
+  {\path{doi:10.1155/2016/5670851}}.
+\newline\urlprefix\url{http://www.hindawi.com/journals/abi/2016/5670851/}
+
+\bibitem{Wang2013}
+J.~Wang, L.~Wu, J.~Kong, Y.~Li, B.~Zhang, {Maximum weight and minimum
+  redundancy: A novel framework for feature subset selection}, Pattern
+  Recognition 46~(6) (2013) 1616--1627.
+\newblock \href {http://dx.doi.org/10.1016/j.patcog.2012.11.025}
+  {\path{doi:10.1016/j.patcog.2012.11.025}}.
+
+\bibitem{FengYang2011}
+{Feng Yang}, K.~Z. Mao,
+  \href{http://ieeexplore.ieee.org/document/5611484/}{{Robust Feature Selection
+  for Microarray Data Based on Multicriterion Fusion}}, IEEE/ACM Transactions
+  on Computational Biology and Bioinformatics 8~(4) (2011) 1080--1092.
+\newblock \href {http://dx.doi.org/10.1109/TCBB.2010.103}
+  {\path{doi:10.1109/TCBB.2010.103}}.
+\newline\urlprefix\url{http://ieeexplore.ieee.org/document/5611484/}
+
+\bibitem{Kunasekaran2016}
+K.~K.~H. Kunasekaran, R.~Sugumaran,
+  \href{https://www.semanticscholar.org/paper/Exploratory-Analysis-of-Feature-Selection-in-Image-Kunasekaran-Sugumaran/ce4c8cf20ca1ba650efecbb396347fd9b814f7f9}{{Exploratory
+  Analysis of Feature Selection Techniques in Medical Image Processing}},
+  International Conference on Information Engineering, Management and Security
+  2016~(Iciems) (2016) 33--37.
+\newline\urlprefix\url{https://www.semanticscholar.org/paper/Exploratory-Analysis-of-Feature-Selection-in-Image-Kunasekaran-Sugumaran/ce4c8cf20ca1ba650efecbb396347fd9b814f7f9}
+
+\bibitem{Min2016}
+F.~Min, J.~Xu, {Semi-greedy heuristics for feature selection with test cost
+  constraints}, Granular Computing 1~(3) (2016) 199--211.
+\newblock \href {http://dx.doi.org/10.1007/s41066-016-0017-2}
+  {\path{doi:10.1007/s41066-016-0017-2}}.
+
+\bibitem{Li2016}
+S.~Li, S.~Oh,
+  \href{http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1178-3}{{Improving
+  feature selection performance using pairwise pre-evaluation}}, BMC
+  Bioinformatics 17~(1) (2016) 312.
+\newblock \href {http://dx.doi.org/10.1186/s12859-016-1178-3}
+  {\path{doi:10.1186/s12859-016-1178-3}}.
+\newline\urlprefix\url{http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1178-3}
+
+\bibitem{Yuan2017}
+M.~Yuan, Z.~Yang, G.~Huang, G.~Ji,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0167865517300764}{{Feature
+  selection by maximizing correlation information for integrated
+  high-dimensional protein data}}, Pattern Recognition Letters 92 (2017)
+  17--24.
+\newblock \href {http://dx.doi.org/10.1016/j.patrec.2017.03.011}
+  {\path{doi:10.1016/j.patrec.2017.03.011}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0167865517300764}
+
+\bibitem{Lefakis2016}
+L.~Lefakis, F.~Fleuret, {Jointly informative feature selection made tractable
+  by Gaussian modeling}, Journal of Machine Learning Research 17 (2016) 1--39.
+
+\bibitem{Quinlan1986}
+J.~R. Quinlan, {Induction of decision trees}, Machine Learning 1~(1) (1986)
+  81--106.
+\newblock \href {http://dx.doi.org/10.1007/bf00116251}
+  {\path{doi:10.1007/bf00116251}}.
+
+\bibitem{Liu1995}
+H.~Liu, R.~Setiono, {Chi2: feature selection and discretization of numeric
+  attributes}, in: Proceedings of the International Conference on Tools with
+  Artificial Intelligence, IEEE, 1995, pp. 388--391.
+\newblock \href {http://dx.doi.org/10.1109/tai.1995.479783}
+  {\path{doi:10.1109/tai.1995.479783}}.
+
+\bibitem{Hegde2014}
+S.~Hegde, K.~K. Achary, S.~Shetty, {Statistical analysis of features and
+  classification of alphasyllabary sounds in Kannada language}, International
+  Journal of Speech Technology 18~(1) (2014) 65--75.
+\newblock \href {http://dx.doi.org/10.1007/s10772-014-9250-8}
+  {\path{doi:10.1007/s10772-014-9250-8}}.
+
+\bibitem{Thabtah2018}
+F.~Thabtah, F.~Kamalov, K.~Rajab,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S1386505618300546}{{A new
+  computational intelligence approach to detect autistic features for autism
+  screening}}, International Journal of Medical Informatics 117 (2018)
+  112--124.
+\newblock \href {http://dx.doi.org/10.1016/j.ijmedinf.2018.06.009}
+  {\path{doi:10.1016/j.ijmedinf.2018.06.009}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S1386505618300546}
+
+\bibitem{Hall2009}
+M.~Hall, E.~Frank, G.~Holmes, B.~Pfahringer, P.~Reutemann, I.~H. Witten, {The
+  WEKA data mining software}, ACM SIGKDD Explorations Newsletter 11~(1) (2009)
+  10.
+\newblock \href {http://dx.doi.org/10.1145/1656274.1656278}
+  {\path{doi:10.1145/1656274.1656278}}.
+
+\bibitem{Shahamiri2014}
+S.~R. Shahamiri, S.~S. {Binti Salim}, {Artificial neural networks as speech
+  recognisers for dysarthric speech: Identifying the best-performing set of
+  MFCC parameters and studying a speaker-independent approach}, Advanced
+  Engineering Informatics 28~(1) (2014) 102--110.
+\newblock \href {http://dx.doi.org/10.1016/j.aei.2014.01.001}
+  {\path{doi:10.1016/j.aei.2014.01.001}}.
+
+\bibitem{Asuncion2007}
+A.~Asuncion, D.~J. Newman, \href{https://archive.ics.uci.edu/ml/datasets.php
+  http://www.ics.uci.edu/{~}mlearn/MLRepository.html{\%}5Cnhttp://archive.ics.uci.edu/ml/datasets.html}{{UCI
+  Machine Learning Repository: Data Sets}} (2007).
+\newline\urlprefix\url{https://archive.ics.uci.edu/ml/datasets.php
+  http://www.ics.uci.edu/{~}mlearn/MLRepository.html{\%}5Cnhttp://archive.ics.uci.edu/ml/datasets.html}
+
+\bibitem{Hand2001}
+D.~J. Hand, K.~Yu,
+  \href{http://doi.wiley.com/10.1111/j.1751-5823.2001.tb00465.x}{{Idiot's Bayes
+  - Not so stupid after all?}}, International Statistical Review 69~(3) (2001)
+  385--398.
+\newblock \href {http://dx.doi.org/10.1111/j.1751-5823.2001.tb00465.x}
+  {\path{doi:10.1111/j.1751-5823.2001.tb00465.x}}.
+\newline\urlprefix\url{http://doi.wiley.com/10.1111/j.1751-5823.2001.tb00465.x}
 
 \end{thebibliography}

@@ -3,44 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: elsarticle-ins-l2-feature-selection.aux
 The style file: elsarticle-num.bst
 Database file #1: mybibfile.bib
-You've used 2 entries,
+Warning--empty journal in Hall1999
+Warning--there's a number but no volume in Hall1999
+Warning--empty publisher in Witten2011
+You've used 37 entries,
             2937 wiz_defined-function locations,
-            686 strings with 5716 characters,
-and the built_in function-call counts, 797 in all, are:
-= -- 78
-> -- 17
-< -- 1
-+ -- 7
-- -- 5
-* -- 58
-:= -- 115
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 2
+            987 strings with 15165 characters,
+and the built_in function-call counts, 12768 in all, are:
+= -- 1350
+> -- 334
+< -- 4
++ -- 136
+- -- 99
+* -- 1124
+:= -- 1712
+add.period$ -- 69
+call.type$ -- 37
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 27
-empty$ -- 88
-format.name$ -- 7
-if$ -- 200
+cite$ -- 40
+duplicate$ -- 382
+empty$ -- 1382
+format.name$ -- 130
+if$ -- 3249
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 16
-num.names$ -- 2
-pop$ -- 15
+int.to.str$ -- 37
+missing$ -- 37
+newline$ -- 173
+num.names$ -- 37
+pop$ -- 208
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 52
+skip$ -- 717
 stack$ -- 0
-substring$ -- 43
-swap$ -- 12
-text.length$ -- 1
+substring$ -- 779
+swap$ -- 153
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 7
-width$ -- 3
-write$ -- 28
+warning$ -- 3
+while$ -- 106
+width$ -- 39
+write$ -- 390
+(There were 3 warnings)
