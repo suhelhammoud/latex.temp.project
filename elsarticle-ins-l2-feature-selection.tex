@@ -5,6 +5,10 @@
 
 \journal{Journal of Informatics and Computer Science Intelligent Systems Applications. }
 
+% added by suhel
+\usepackage{array}
+\newcolumntype{L}{>{\centering\arraybackslash}m{3.5cm}}
+
 %%%%%%%%%%%%%%%%%%%%%%%
 %% Elsevier bibliography styles
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -252,24 +256,30 @@ Cut-off points for CHI and IG have been set to 10.83 and 0.01 respectively \cite
 
 The results obtained by $ L^2  $method have been investigated using different cut-off values in order to identify the ones that can be utilized by novice users. We derive sets of features from different datasets by $ L^2 $ when the cut-off value varies. This extensive experimental analysis step is carried out on different datasets in which the cutoff values were set to an equispaced grid {5\%, 10\%, …, 95\%}. We show for presentation purposes the results obtained on six datasets (Figures \ref{fig:fig2}) in which we plotted the cut-off values (X-Axis) and the error rates derived using Bayes Net probabilistic classifier (Y-Axis). Based on the results obtained, it is clear from the “Anneal” dataset figures that the error rate was stable when the cut-off was set between 10\% and 36\%. The error rate started to slightly increase when the cut-off values were between 36\% and 50\%. Continuing, the error rate had clearly increased when the cut-off value becomes larger than 50\%. The same pattern was observed in the results obtained on the “Audiology” dataset in which when the cut-off values were around 50\% and 75\% respectively sudden changes in error rate values were obvious. Lastly, the “Car” and “Cleved” datasets show a clear increase in error rate when the cut-off values were around 25\% and 50\% respectively. There was one notable result on the “Anneal” dataset when the cut-off value reached 85\% in which  the error derived by Bayes Net was dropped to 10\%. 
 
-\begin{table}[p]
-	\centering
-	\caption[short tbl1 table1]{The datasets description and results of \# of selected variables by the filter methods}
-	\label{tab:tbl1}
+
+\begin{table}[tp]
+
 	
-\begin{tabular}{|p{1.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{3cm}|p{0.5cm}|p{0.5cm}|p{1cm}|p{1cm}|}
+% \begin{tabular}{|p{1.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{3cm}|p{0.5cm}|p{0.5cm}|p{1cm}|p{1cm}|}
+\vspace*{-4cm}
+
+\centering
+\caption[short tbl1 table1]{The datasets description and results of \# of selected variables by the filter methods}
+\label{tab:tbl1}
+\hspace*{-2cm}
+\begin{tabular}{|p{1.7cm}|p{0.6cm}|p{0.7cm}|p{0.6cm}|p{0.7cm}|p{0.7cm}|L|p{0.5cm}|p{0.5cm}|p{1cm}|p{1cm}|}
 	
-	
+
 %\hline Dataset & instances & variables & classes & MV & CV & CW & IG & CHI & L^2 50\% cutoff & L^2 75\% cutoff \\
 	\hline 
 	\multicolumn{7}{|c|}{Datasets Description} &
 	\multicolumn{4}{|c|}{ Variables Selected } \\ 
 
-\hline Dataset & insta-nces & vari-ables & classes & MV & CV & CW & IG & CHI & $ L^2 $ 50\%  & $ L^2 $ 75\% \\ 
+\hline Dataset & insta-nces & vari-ables & class-es & Missing values & Cont. vars. & Class Weights \% & IG & CHI & $ L^2 $ 50\% cut-off  & $ L^2 $ 75\% cut-off \\ 
 	\hline Anneal & 898 & 38 & 6 & Yes & Yes & 76,  11, 7, 5, 1, 0 & 29 & 29 & 19 & 10 \\ 
 	\hline arrhythmia & 452 & 279 & 16 & Yes & Yes & 54,9,3,3,3,5, 0.5,0.5,2,11,0,0,0.8,0.8,4 & 124 & 117 & 140 & 70 \\ 
-\hline Audiology & 226 & 69 & 24 & Yes & No & 25,  21, 9, 9, 8, 3, 3, 2, 1, 1, 1, 1,  0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.4, 0.4, 0.4, 0.4,  0.4 & 58 & 51 & 35 & 18 \\ 
-\hline Autos & 205 & 25 & 7 & Yes & Yes & Taking risk factor symbol as class,  33, 26, 15, 13, 11, 1, 0 & 23 & 23 & 13 & 7 \\ 
+\hline Audiology & 226 & 69 & 24 & Yes & No & 25,21,9,9,8,3,3,2,1,1,1,1, 0.9,0.9,0.9,0.9,0.9,0.9, 0.9,0.4,0.4,0.4,0.4,0.4 & 58 & 51 & 35 & 18 \\ 
+\hline Autos & 205 & 25 & 7 & Yes & Yes & Risk factor 33,26,15 ,13,11,1,0 & 23 & 23 & 13 & 7 \\ 
 \hline Breast-cancer & 286 & 10 & 2 & Yes & No & 70.28, 29.72 & 6 & 4 & 5 & 3 \\ 
 \hline Car & 1728 & 6 & 4 & No & No & 70,  22, 4, 4 & 5 & 5 & 3 & 2 \\ 
 \hline Cleve & 303 & 11 & 2 & Yes & No & 54.45, 45.55 & 10 & 9 & 6 & 3 \\ 
@@ -280,21 +290,24 @@ The results obtained by $ L^2  $method have been investigated using different cu
 \hline Cylinder-bands & 540 & 39 & 2 & Yes & Yes & 57.78, 42.22 & 21 & 20 & 20 & 10 \\ 
 \hline Dermatology & 366 & 34 & 6 & Yes & Yes & 30, 20, 17, 14, 14, 5 &  34 & 34 & 17 & 9 \\
 \hline Diabetes & 768 & 8 & 2 & No & Yes & 65.10, 34.90 & 8 & 8 & 4 & 2 \\
-\hline Ecoli & 336 & 7 & 8 & No & Yes & 42,  23, 15, 106, 1,  0.6, 0. & 6 & 6 & 4 & 2 \\ 
-\hline Flags & 194 & 29 & 8 & No & Yes & 35, 24, 20, 8, 5, 5,  1, 0.5 & 26 & 21 & 15 & 8 \\ 
-\hline Glass & 214 & 9 & 7 & No & Yes & 35., 33, 13, 8, 6, 4, 0 & 8 & 8 & 5 & 3 \\ 
-\hline Heart-c & 303 & 13 & 5 & Yes & Yes & 54, 18, 12, 12, 4 & 10 & 9 & 7 & 4 \\ 
+\hline Ecoli & 336 & 7 & 8 & No & Yes & 42,23,15,10,6,1,0.6,0. & 6 & 6 & 4 & 2 \\ 
+\hline Flags & 194 & 29 & 8 & No & Yes & 35,24,20,8,5,5,1,0.5 & 26 & 21 & 15 & 8 \\ 
+\hline Glass & 214 & 9 & 7 & No & Yes & 35,33,13,8,6,4,0 & 8 & 8 & 5 & 3 \\ 
+\hline Heart-c & 303 & 13 & 5 & Yes & Yes & 54,18,12,12,4 & 10 & 9 & 7 & 4 \\ 
 \hline Hepatitis & 155 & 19 & 2 & Yes & Yes & 79.35, 20.65 & 15 & 9 & 10 & 5 \\ 
 \hline Hypothyroid & 3772 & 29 & 4 & Yes & Yes & 92, 5, 2.5, 0.5 & 6 & 10 & 15 & 8 \\ 
 \hline Ionosphere & 351 & 34 & 2 & No & Yes & 64.10, 35.90 & 33 & 33 & 15 & 9 \\ 
 \hline Labor & 57 & 16 & 2 & Yes & Yes & 64.91, 35.08 & 14 & 3 & 8 & 4 \\ 
-\hline Lymphography & 148 & 18 & 4 & No & Yes & 55, 41, 3, 1 & 18 & 10 & 9 & 5 \\ 
+\hline Lymphogra-phy & 148 & 18 & 4 & No & Yes & 55, 41, 3, 1 & 18 & 10 & 9 & 5 \\ 
 \hline Mushroom & 8124 & 22 & 2 & Yes & No & 51.80, 48.20 & 20 & 21 & 11 & 6 \\ 
 \hline Optdigits & 5620 & 64 & 10 & No & Yes & 10, 10, 10, 10, 10,  9.93, 9.93, 9.91, 9.86, 9.86 & 56 & 58 & 32 & 16 \\ 
 \hline Segment & 2310 & 19 & 7 & No & Yes & 14.28 each & 18 & 18 & 10 & 5 \\ 
 \hline Wave & 5000 & 40 & 3 & No & Yes & 33.84, 33.1 , 33.06 & 19 & 19 & 19 & 10 \\ 
 	\hline 
 \end{tabular} 
+\hspace*{-4cm}	
+
+
 \end{table}
 
 
