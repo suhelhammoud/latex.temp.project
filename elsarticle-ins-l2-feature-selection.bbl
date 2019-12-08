@@ -5,44 +5,6 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Kamalov2017}
-F.~Kamalov, F.~Thabtah, {A Feature Selection Method Based on Ranked Vector
-  Scores of Features for Classification}, Annals of Data Science 4~(4) (2017)
-  483--502.
-\newblock \href {http://dx.doi.org/10.1007/s40745-017-0116-1}
-  {\path{doi:10.1007/s40745-017-0116-1}}.
-
-\bibitem{Kamalov2017a}
-F.~Kamalov, F.~Thabtah, {A Feature Selection Method Based on Ranked Vector
-  Scores of Features for Classification}, Annals of Data Science 4~(4) (2017)
-  483--502.
-\newblock \href {http://dx.doi.org/10.1007/s40745-017-0116-1}
-  {\path{doi:10.1007/s40745-017-0116-1}}.
-
-\bibitem{McCluskey2014}
-L.~McCluskey, F.~Thabtah, R.~M. Mohammad,
-  \href{https://digital-library.theiet.org/content/journals/10.1049/iet-ifs.2013.0202}{{Intelligent
-  rule-based phishing websites classification}}, IET Information Security 8~(3)
-  (2014) 153--160.
-\newblock \href {http://dx.doi.org/10.1049/iet-ifs.2013.0202}
-  {\path{doi:10.1049/iet-ifs.2013.0202}}.
-\newline\urlprefix\url{https://digital-library.theiet.org/content/journals/10.1049/iet-ifs.2013.0202}
-
-\bibitem{Bunker2019}
-R.~P. Bunker, F.~Thabtah,
-  \href{https://linkinghub.elsevier.com/retrieve/pii/S2210832717301485}{{A
-  machine learning framework for sport result prediction}}, Applied Computing
-  and Informatics 15~(1) (2019) 27--33.
-\newblock \href {http://dx.doi.org/10.1016/j.aci.2017.09.005}
-  {\path{doi:10.1016/j.aci.2017.09.005}}.
-\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S2210832717301485}
-
-\bibitem{Chandrashekar2014}
-G.~Chandrashekar, F.~Sahin, {A survey on feature selection methods}, Computers
-  and Electrical Engineering 40~(1) (2014) 16--28.
-\newblock \href {http://dx.doi.org/10.1016/j.compeleceng.2013.11.024}
-  {\path{doi:10.1016/j.compeleceng.2013.11.024}}.
-
 \bibitem{Abdelhamid2017}
 N.~Abdelhamid, F.~Thabtah, H.~Abdel-Jaber, {Phishing detection: A recent
   intelligent machine learning comparison based on models content and
@@ -52,10 +14,10 @@ N.~Abdelhamid, F.~Thabtah, H.~Abdel-Jaber, {Phishing detection: A recent
 \newblock \href {http://dx.doi.org/10.1109/ISI.2017.8004877}
   {\path{doi:10.1109/ISI.2017.8004877}}.
 
-\bibitem{Hall1999}
-M.~A. Hall,
-  \href{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.4643}{{Correlation-based
-  Feature Selection for Machine Learning}}~(April).
-\newline\urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.4643}
+\bibitem{Chandrashekar2014}
+G.~Chandrashekar, F.~Sahin, {A survey on feature selection methods}, Computers
+  and Electrical Engineering 40~(1) (2014) 16--28.
+\newblock \href {http://dx.doi.org/10.1016/j.compeleceng.2013.11.024}
+  {\path{doi:10.1016/j.compeleceng.2013.11.024}}.
 
 \end{thebibliography}
